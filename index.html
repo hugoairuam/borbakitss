@@ -1,0 +1,189 @@
+<!DOCTYPE html> 
+
+<html lang="pt"> 
+<head> 
+   
+    <meta charset="UTF-8"> 
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <title>Pultrini's Barbearia</title> 
+    <style>
+
+    body {
+        
+        margin: 0;
+        background-image:
+            linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+            url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0A-jOkHKBsOWWrOX5RrzhjG9R2gX_b5ykis5XwiOyxrqoXaPEpIAtEWZW&s=10");
+
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    header, main, footer {
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    section {
+        background-color: rgba(0, 0, 0, 0.65);
+        padding: 25px;
+        margin: 25px 0;
+        border-radius: 15px;
+    }
+
+    article {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 12px;
+    }
+
+    button {
+        background-color: #16a34a;
+        color: white;
+        border: none;
+        padding: 12px 18px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: #15803d;
+    }
+</style>
+
+</head> 
+<body> 
+ 
+   
+    <header> 
+       
+        <h1>Pultrini's Barbearia</h1> 
+        
+        <p>A melhor Barbearia de Galia e Região.</p> 
+         
+       
+        <nav> 
+            
+            <ul> 
+               
+               
+                <li><a href="#inicio">Início</a></li> 
+                <li><a href="#serviço">serviços</a></li> 
+                <li><a href="#contato">Contato</a></li> 
+            </ul> 
+        </nav> 
+    </header> 
+ 
+    
+    <main> 
+ 
+        
+        <section id="inicio"> 
+           
+            <h2>Bem-vindo à Nossa Barbearia!</h2> 
+            <p>Nesta barbearia cada experiência é única!</p> 
+        </section> 
+ 
+        
+        <section id="serviços"> 
+            <h2>serviços em Destaque</h2> 
+             
+           
+            <article> 
+                
+                <h3>Corte</h3> 
+               
+                <img src="https://negociosdebeleza.beautyfair.com.br/wp-content/uploads/205/10/corte-de-cabelo-masculino-moicano-degrade-606x1024.jpeg" alt="corte "> 
+                <p>Preço: <strong>40,00R$</strong></p> 
+                
+               
+                <button type="button">Marcar horário</button> 
+            </article> 
+ 
+            <article> 
+                <h3>Corte + barba</h3> 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF9Q_iHI9MzglTpfHis7fr3D6ljY-GpAJ7-PcZ6NWiw&s=10" alt="corte e barba"> 
+                <p>Preço: <strong>70,00R$</strong></p> 
+                
+                <button type="button">Marcar horário</button> 
+            </article> 
+ 
+            <article> 
+                <h3>Barba na Toalha Quente </h3> 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrHPtD4YZ_uhXF9I-KzFx43MZ7dgLWjiEm8rEg1cWeZq7v5tuKQfPNxY&s=10" alt="Barba na Toalha Quente"> 
+                <p>Preço: <strong>35,00R$</strong></p> 
+                
+                <button type="button">Marcar horário</button> 
+            </article> 
+        </section> 
+ 
+        
+        <section id="contacto"> 
+            <h2>Fale Conosco / Subscreva a Pultrini's barbearia</h2> 
+            <p>Deixe os seus dados para receber promoções exclusivas diretamente no seu e-mail.</p> 
+             
+           
+            <form action="#" method="POST"> 
+              
+                <label for="nome">Nome Completo:</label> 
+                
+                <input type="text" id="nome" name="nome" placeholder="Digite o seu nome aqui" required> 
+                 
+                <br><br> 
+ 
+                <label for="email">E-mail de Contato:</label> 
+                
+                <input type="email" id="email" name="email" placeholder="exemplo@email.com" required> 
+                 
+                <br><br> 
+ 
+                <label for="mensagem">Mande sua Avaliaçao (Opcional):</label><br> 
+               
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Escreva a sua dúvida ou 
+sugestão..."></textarea> 
+                 
+                <br><br> 
+ 
+                
+                <button type="submit">Enviar Mensagem</button> 
+            </form> 
+        </section> 
+ 
+    </main> 
+ 
+   
+    <footer> 
+        <p>&copy; Instagram para contato:@airuam.vzs</p> 
+        <p>WhatsApp para contato:(14) 998416400</p> 
+    </footer> 
+</body> 
+</html>
